@@ -1,0 +1,21 @@
+# Python
+.venv/
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.spec
+
+# 项目内部/私密
+.workbuddy/
+货场退货条码_物品编码/
+诊断输出/
+客户端自检输出/
+对比测试/
+重叠测试/
+launch_test.log
+*.log
+
+# 字体（运行时使用系统字体，不入库）
+fonts/
