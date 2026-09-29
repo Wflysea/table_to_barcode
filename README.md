@@ -17,8 +17,17 @@
 
 ## 运行方式
 
-- **免安装**：直接双击 `dist/BarcodeTool.exe`（已用 PyInstaller 打包成单文件）
-- **源码**：`python app.py`（需安装 `openpyxl`、`python-barcode`、`Pillow`，且 Python 自带 `tkinter`）
+- **免安装（已发布）**：直接下载仓库里的可执行文件
+  [`BarcodeTool.exe`](https://github.com/Wflysea/table_to_barcode/raw/main/dist/BarcodeTool.exe)（约 19MB，PyInstaller 单文件打包，双击即用）
+- **源码运行**：`python app.py`（需安装 `openpyxl`、`python-barcode`、`Pillow`，且 Python 自带 `tkinter`）
+
+## 下载
+
+| 文件 | 说明 | 链接 |
+| --- | --- | --- |
+| `BarcodeTool.exe` | 已编译的 Windows 单文件程序 | [点此下载](https://github.com/Wflysea/table_to_barcode/raw/main/dist/BarcodeTool.exe) |
+
+> 该 exe 已随仓库 `main` 分支提交（绕过 `.gitignore` 的 `dist/` 忽略规则），可随时从上面链接获取最新版。
 
 ## 注意事项
 
